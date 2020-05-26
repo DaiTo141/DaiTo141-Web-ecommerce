@@ -1,0 +1,56 @@
+.bg-black {
+    background-color: rgba(14, 14, 14, 1)
+ }
+ .offer {
+  font-weight: 600;
+  color: aliceblue;
+  background-color: #37474f;
+}
+
+.navbar-brand>img {
+  display: block;
+  max-width:40px;
+  max-height:40px;
+  width: auto;
+  height: auto;
+  margin: 0px auto;
+}
+.body {
+  float: left;
+}
+.footer {
+  float: left;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.card-body {
+  display: block;
+    float: right;
+ }
+
+ .card-title {
+  text-decoration: underline;
+ }
+ 
+ .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.input {
+  background-color: #f0f0f0;
+  border: medium none;
+  color: #000;
+  text-align: center;
+}
+a:link {
+ color: white;
+}
+#canvas{
+    position: fixed;
+ }

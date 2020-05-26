@@ -1,0 +1,64 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.bg-black {
+   background-color: rgba(14, 14, 14, 1)
+}
+#canvas{
+   position: fixed;
+}
+.carousel-caption {
+   top: 200px;
+}
+
+.offer {
+   font-weight: 600;
+   color: aliceblue;
+   background-color: #37474f;
+}
+
+.underline {
+   width: 200px;
+   height: 2px;
+   background-color: orangered;
+}
+
+.bg-light-gray {
+   background-color: gray
+}
+
+.media img {
+   max-width: 120px;
+   height: auto
+}
+
+.underline-green {
+   width: 70px;
+   height: 2px;
+   background-color: lawngreen
+}
+
+.underline-blue {
+   width: 70px;
+   height: 2px;
+   background-color: mediumblue;
+}
+
+.underline-black {
+   width: 70px;
+   height: 2px;
+   background-color: black;
+}
+
+.card-body {
+   text-align: center;
+}
+
+.blog .media img {
+   max-width: 200px;
+   height: auto;
+}
+
+
+

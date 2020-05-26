@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="/logo2.png" type="image/gif" sizes="50x50">
+    <link rel="stylesheet" href="./css/style1.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>My cart</title>
+</head>
+<body>
+    <div id="canvas">
+        <canvas id="field"></canvas>
+      </div>
+    <div class="container-fluid bg-black header-top d-none d-md-block">
+        <div class="container">
+          <div class="row text-light pt-2 pb-2">
+            <div class="col-md-5">
+              <i class="fa fa-envelope-o"></i>dailedanh14123@gmail.com
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-2"><i class="fa fa-user-o"></i> Account</div>
+            <div class="col-md-2">
+                <a href="cart.html" color="white" ><i class="fa fa-cart-plus"></i> My Cart - $ <div id="my-cart" style="display: inline-block;"></div></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid bg-dark">
+        <nav class="container navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">
+              <img width="400" height="400" src="./img/logo2.png" alt="">
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Stuff</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                Product
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Top</a>
+                  <a class="dropdown-item" href="#">Shoes</a>
+                  <a class="dropdown-item" href="#">Scarf</a>
+                  <a class="dropdown-item" href="#">Dress</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sales</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </nav>
+      </div> 
+         <!-- Shopping Cart Table -->
+<div class="container"> 
+    <div class="row">
+    <div class="cart-title">
+    <h4 class="fa fa-cart-plus">MY CART</h4>
+    </div>
+    <table class="table table-hover">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Amount</th>
+            <th scope="col">Total money</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"><div class="text-center">
+                <img src="./img/pexels-photo-458768.jpeg" class="rounded" alt="Girl in white dress" width="60" height="60" >
+              </div></th>
+            <td>Blue Top</td>
+            <td>34.00$</td>
+            <td><input type="number" value="1"></td>
+            <td>34.00$</td>
+            <td><button class="fa fa-trash"></button></td>
+          </tr>
+          <tr>
+            <th scope="row"><div class="text-center">
+                <img src="./img/show 1.jpg" class="rounded" alt="boot" width="60" height="60" ></div></th>
+            <td>Black Shoes</td>
+            <td>34.00$</td>
+            <td><input type="number" value="1"></td>
+            <td>34.00$</td>
+            <td><button class="fa fa-trash"></button></td>
+          </tr>
+          <tr>
+            <th scope="row"><div class="text-center">
+                <img src="./img/belts-823257_1920-540x500.jpg" class="rounded" alt="Shield" width="60" height="60" ></div></th>
+            <td>FiTT Belts</td>
+            <td>35.00$</td>
+            <td><input type="number" value="1"></td>
+            <td>35.00$</td>
+            <td><button class="fa fa-trash"></button></td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+</div> 
+      
+    
+      <div class="footer">
+      <footer>
+        <div class="container-fluid mt-5" style="background-color: #d9d9d9;">	
+          <div class="row text-center">
+            <div class="col-md-4">
+              <hr class="light">
+              <h5>Contact Us</h5>
+              <hr class="light">
+              <p>111-222-3333</p>
+              <p>dailedanh1412@gmail.com</p>
+              <p>PTN, Hanoi, Vietnam</p>
+            </div>
+            <div class="col-md-4">				
+              <hr class="light">
+              <h5>Working hours</h5>
+              <hr class="light">
+              <p>Monday-Friday: 8am - 5pm</p>
+              <p>Weekend: 8am - 12am</p>
+            </div>
+            <div class="col-md-4">				
+              <hr class="light">
+              <h5>The news</h5>
+              <hr class="light">
+              <p>Lorem ipsum amet consectetur adipisicing elit. </p>
+              <p>Blanditiis ipsa ut, sapiente consequuntur earum vel perferendis error ab quia tempore </p>
+              <p>est quis voluptas voluptatem esse rem minima, expedita, eos aliquid?</p>
+            </div>
+            <div class="col-12">
+              <hr class="light-100">
+              <p class="navbar-brand"><img width="400" height="400" src="/logo2.png" alt=""></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+</body>
+<script src="index.js"></script>
+</html>
